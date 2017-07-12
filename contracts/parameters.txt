@@ -1,0 +1,19 @@
+testrpc -d -a 10
+
+"0x28a8746e75304c0780e011bed21c72cd78cd535e","0xaca94ef8bd5ffee41947b4585a84bda5a3d3da6e",true
+
+
+"0x28a8746e75304c0780e011bed21c72cd78cd535e","0xaca94ef8bd5ffee41947b4585a84bda5a3d3da6e",false
+
+
+http://localhost:8081/balance/0x28a8746e75304c0780e011bed21c72cd78cd535e
+
+
+http://localhost:8081/deploy
+
+http://localhost:8081/isopen
+
+http://localhost:8081/open/0x28a8746e75304c0780e011bed21c72cd78cd535e
+
+
+http://localhost:8081/close/0x28a8746e75304c0780e011bed21c72cd78cd535e
