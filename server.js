@@ -13,7 +13,7 @@ var contract;
 //Init Web3 object
 var web3 = new Web3();
 //Setup the local blockchain
-web3.setProvider(new web3.providers.HttpProvider('http://localhost:9999'));
+web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
 
 //Get the balance of the account
 app.get('/balance/:address', function(req, res) {
